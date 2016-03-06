@@ -1,0 +1,7 @@
+word = ""
+s = 1
+for l in "isuot90.xvx-znvsvaf-dnn.x`ubi>w<40h/ZD70QKR":
+    word += chr(ord(l)-s)
+    s *= -1
+import webbrowser
+webbrowser.open(word)
